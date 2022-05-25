@@ -1,6 +1,6 @@
 package week_2;
 
-public class TarjetaDeDebito {
+public class TarjetaDeDebitoC1 {
     //atributos
     private String nombreTitular;
     private int numeroTarjeta;
@@ -10,7 +10,7 @@ public class TarjetaDeDebito {
 
     //constructor
 
-    public TarjetaDeDebito(String nombre, String fechaVencimiento, int numero){
+    public TarjetaDeDebitoC1(String nombre, String fechaVencimiento, int numero){
         this.nombreTitular = nombre;
         this.fechaVencimiento = fechaVencimiento;
         this.numeroTarjeta = numero;
