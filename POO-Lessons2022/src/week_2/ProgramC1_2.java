@@ -1,7 +1,7 @@
-package week_3;
+package week_2;
 
 
-public class ProgramC1 {
+public class ProgramC1_2 {
     public static void main(String[] args) {
         CupcakeC1 cupcakeDeChocolate =  new CupcakeC1("C","chocolate","chocolate",false);
         System.out.println("El sabor de su cupcake es: " + cupcakeDeChocolate.getSabor());

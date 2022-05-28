@@ -1,4 +1,4 @@
-package week_3;
+package week_2;
 
 public class CupcakeC1 {
     //atributos

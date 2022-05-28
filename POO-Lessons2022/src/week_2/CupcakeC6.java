@@ -1,9 +1,9 @@
-package week_3;
+package week_2;
 
 public class CupcakeC6 {
     //atributos
     private String sabor;
-    private double precio;
+    private static double precio;
     private String nombre;
     private boolean relleno;
     private String topping;
@@ -15,9 +15,19 @@ public class CupcakeC6 {
         this.relleno = relleno;
         this.topping = topping;
     }
+    public CupcakeC6(String sabor){
+        this.sabor = sabor;
+    }
 
     //metodos
 
+    public static void setPrecio(double precio){
+        CupcakeC6.precio = precio;
+    }
+
+    public double getPrecio(){
+        return precio;
+    }
 
     public String getSabor() {
         return sabor;
@@ -26,6 +36,8 @@ public class CupcakeC6 {
     public void setSabor(String sabor) {
         this.sabor = sabor;
     }
+
+
 
     public String getNombre() {
         return nombre;
