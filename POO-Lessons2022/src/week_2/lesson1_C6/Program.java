@@ -1,8 +1,8 @@
-package week_2;
+package week_2.lesson1_C6;
 
-public class ProgramC6 {
+public class Program {
     public static void main(String[] args) {
-        TarjetaDeDebitoC6 tarjetaDeLiliana = new TarjetaDeDebitoC6("Liliana",4545,"24/05/2022");
+        TarjetaDeDebito tarjetaDeLiliana = new TarjetaDeDebito("Liliana",4545,"24/05/2022");
         double resultadoConsultaSaldo = tarjetaDeLiliana.getSaldo();
         System.out.println("El saldo de Liliana es: " + resultadoConsultaSaldo);
         tarjetaDeLiliana.setSaldo(50000);

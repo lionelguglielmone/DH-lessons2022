@@ -1,10 +1,10 @@
-package week_2;
+package week_2.lesson1_C1;
 
 import java.util.Scanner;
 
-public class ProgramC1 {
+public class Program {
     public static void main(String[] args) {
-        TarjetaDeDebitoC1 tarjetaSofi = new TarjetaDeDebitoC1("Sofia Volpedo", "23-05-2027", 45464200);
+        TarjetaDeDebito tarjetaSofi = new TarjetaDeDebito("Sofia Volpedo", "23-05-2027", 45464200);
         Scanner scanner = new Scanner(System.in);
         System.out.println("Sofi, ingresa cuanta plata queres poner en tu cuenta");
         double dinero = scanner.nextDouble();

@@ -1,18 +1,20 @@
-package week_2;
+package week_2.lesson2_C1;
 
-public class ClienteC6 {
+public class Cliente {
     //atributos
     private Integer numeroCliente;
     private String nombre;
     private Double deuda;
     //constructor
-    public ClienteC6(Integer numero, String nombre){
-        numeroCliente = numero;
+    public Cliente(Integer numero , String nombre){
+        this.numeroCliente = numero;
         this.nombre = nombre;
+
     }
+
     //metodos
     public void incrementarDeuda(Double valor){
-        deuda += valor;
+        //logica
     }
     public void pagarDeuda(){
         //logica

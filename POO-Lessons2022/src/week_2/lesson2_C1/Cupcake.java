@@ -1,6 +1,6 @@
-package week_2;
+package week_2.lesson2_C1;
 
-public class CupcakeC1 {
+public class Cupcake {
     //atributos
     private String tamanio;
     private static double precio;
@@ -10,7 +10,7 @@ public class CupcakeC1 {
     private String cualquierNumeroDecimal;
 
     //constructor
-    public CupcakeC1(String tamanio, String sabor, String topping, boolean decorado){
+    public Cupcake(String tamanio, String sabor, String topping, boolean decorado){
         this.tamanio = tamanio;
         this.sabor = sabor;
         this.topping = topping;
@@ -72,7 +72,7 @@ public class CupcakeC1 {
     }
 
     public static void setearPrecio(double precio){
-        CupcakeC1.precio = precio;
+        Cupcake.precio = precio;
     }
 
 }

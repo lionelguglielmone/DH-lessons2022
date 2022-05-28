@@ -1,6 +1,6 @@
-package week_2.lesson3;
+package week_2.lesson3_C1;
 
-public class ProgramC1 {
+public class Program {
     public static void main(String[] args) {
         Impresora impresora = new Impresora("HP",true);
         impresora.setCantidadDeHojas(0);

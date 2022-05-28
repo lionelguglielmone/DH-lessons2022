@@ -1,6 +1,6 @@
-package week_2;
+package week_2.lesson1_C6;
 
-public class TarjetaDeDebitoC6 {
+public class TarjetaDeDebito {
     //atributos
     private double saldo;
     private String nombreDelTitular;
@@ -9,7 +9,7 @@ public class TarjetaDeDebitoC6 {
 
     //constructor
 
-    public TarjetaDeDebitoC6(String nombreDelTitular, int numeroTarjeta, String fechaVencimiento) {
+    public TarjetaDeDebito(String nombreDelTitular, int numeroTarjeta, String fechaVencimiento) {
         this.nombreDelTitular = nombreDelTitular;
         this.numeroTarjeta = numeroTarjeta;
         this.fechaVencimiento = fechaVencimiento;

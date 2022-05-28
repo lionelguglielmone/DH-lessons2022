@@ -1,6 +1,6 @@
-package week_2;
+package week_2.lesson2_C6;
 
-public class CupcakeC6 {
+public class Cupcake {
     //atributos
     private String sabor;
     private static double precio;
@@ -9,20 +9,20 @@ public class CupcakeC6 {
     private String topping;
 
     //constructor
-    public CupcakeC6(String sabor, String nombre, boolean relleno, String topping){
+    public Cupcake(String sabor, String nombre, boolean relleno, String topping){
         this.sabor = sabor;
         this.nombre = nombre;
         this.relleno = relleno;
         this.topping = topping;
     }
-    public CupcakeC6(String sabor){
+    public Cupcake(String sabor){
         this.sabor = sabor;
     }
 
     //metodos
 
     public static void setPrecio(double precio){
-        CupcakeC6.precio = precio;
+        Cupcake.precio = precio;
     }
 
     public double getPrecio(){

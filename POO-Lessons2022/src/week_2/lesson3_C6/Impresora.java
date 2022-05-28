@@ -1,6 +1,6 @@
-package week_2;
+package week_2.lesson3_C6;
 
-public class ImpresoraC6 {
+public class Impresora {
     //atributos
     private String modelo;
     private boolean conexionUSB;
@@ -8,13 +8,13 @@ public class ImpresoraC6 {
     private int cantidadDeHojas;
 
     //constructor
-    public ImpresoraC6(String modelo, boolean conexionUSB, String fechaFabricacion){
+    public Impresora(String modelo, boolean conexionUSB, String fechaFabricacion){
         this.modelo = modelo;
         this.conexionUSB = conexionUSB;
         this.fechaFabricacion = fechaFabricacion;
     }
 
-    public ImpresoraC6(String modelo, boolean conexionUSB){
+    public Impresora(String modelo, boolean conexionUSB){
         this.modelo = modelo;
         this.conexionUSB = conexionUSB;
     }
