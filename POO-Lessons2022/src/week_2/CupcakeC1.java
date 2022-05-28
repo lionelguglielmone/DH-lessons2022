@@ -7,6 +7,7 @@ public class CupcakeC1 {
     private String sabor;
     private String topping;
     private boolean decorado;
+    private String cualquierNumeroDecimal;
 
     //constructor
     public CupcakeC1(String tamanio, String sabor, String topping, boolean decorado){
@@ -17,6 +18,15 @@ public class CupcakeC1 {
     }
 
     //metodos
+
+
+    public String getCualquierNumeroDecimal() {
+        return cualquierNumeroDecimal;
+    }
+
+    public void setCualquierNumeroDecimal(String cualquierNumeroDecimal) {
+        this.cualquierNumeroDecimal = cualquierNumeroDecimal;
+    }
 
     public String getTamanio() {
         return tamanio;
