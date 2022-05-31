@@ -9,5 +9,7 @@ public class Program {
 
         impresora.imprimir("esta impresion es de prueba");
 
+
+
     }
 }

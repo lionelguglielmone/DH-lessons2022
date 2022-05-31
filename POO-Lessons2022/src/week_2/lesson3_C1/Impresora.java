@@ -10,9 +10,15 @@ public class Impresora {
     private Integer cantidadDeHojas;
 
     //constructor
+    // podria ser util paraun tecnico
     public Impresora(String modelo, boolean inalambrica){
         this.modelo = modelo;
         this.esInalambrica = inalambrica;
+    }
+    // podria ser util para un usuario de la oficina
+    public Impresora(String modelo, Integer cantidadDeHojas){
+        this.modelo = modelo;
+        this.cantidadDeHojas = cantidadDeHojas;
     }
 
     //metodos
