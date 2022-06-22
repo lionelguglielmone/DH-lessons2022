@@ -10,7 +10,7 @@ public class Program {
         Jugador gonzalez = new Jugador(3,"Gonzalo Gonzales",false, true);
         losAguiluchos.addJugador(gonzalez);
 
-        Jugador mendez = new Jugador(3,"Lucio Mendez",false, s);
+        Jugador mendez = new Jugador(3,"Lucio Mendez",false, true);
         losAguiluchos.addJugador(mendez);
 
 

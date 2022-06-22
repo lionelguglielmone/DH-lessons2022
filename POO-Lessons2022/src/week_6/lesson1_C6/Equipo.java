@@ -30,8 +30,14 @@ public class Equipo {
     }
 
     public void mostrarJugadoresTitulares(){
-        for (int i=0; i<this.jugadores.size(); i++){
-            System.out.println("Esta lesionado: " + jugadores.get(i).isTitular());
+        //usando el for
+        /*for (int i=0; i<this.jugadores.size(); i++){
+            System.out.println(jugadores.get(i).getNombre + " es titular: " + jugadores.get(i).isTitular());
+        }
+        */
+        //usando el forEach
+        for (Jugador jugador : this.jugadores) {
+            System.out.println(jugador.getNombre() + " es titular: " + jugador.isTitular());
         }
     }
 
