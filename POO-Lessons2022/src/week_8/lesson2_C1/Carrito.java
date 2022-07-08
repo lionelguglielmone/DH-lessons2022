@@ -21,7 +21,7 @@ public class Carrito {
         }
         return total;
     }
-    
+
     public String getDuenio() {
         return duenio;
     }
